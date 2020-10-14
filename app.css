@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+align-items: center;
+
+  background-color: rgb(61, 61, 61);
+  
+}
+
+.counters{
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 840px;
+  
+ /* border: black 2px dashed; */
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+align-items: center;
+
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+ 
+  
+
+  background-color: rgb(245, 245, 245);
+  border: black 2px solid;
+  border-radius: 50%;
+  text-align: center;
+
+  font-size: 28px;
+  
+
+}
+
+.playground {
+  
+  position: relative;
+
+  margin: 20px;
+
+  width: 940px;
+  height: 540px;
+
+  background-color: rgb(163, 46, 10);
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+}
+
+.ball {
+  position: absolute;
+
+  z-index: 100;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px black solid;
+  border-bottom: 2px black solid;
+  border-right: 2px black solid;
+
+}
+
+#ball1{
+  background-color:rgb(255, 255, 45);
+}
+
+
+.goal {
+
+height: 90px;
+width: 10px;
+
+background-color: white;
+
+border-right: 1px black solid;
+border-bottom: 1px black solid;
+
+}
+
+.leftGoal{
+  position: absolute;
+  
+  left: 40px; 
+
+}
+
+.rightGoal{
+  position: absolute;
+  
+  right: 40px;
+  
+}
+
+.filet{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  height: 100%;
+
+  border: whitesmoke 1px dashed;
+
+  transform: translate(-50%, -50%);
+
+}
+.draw1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+
+  width: 50%;
+
+  border: rgb(245, 245, 245, 0.6) 1px solid;
+}
+.draw2 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+
+  height: 100%;
+
+  border: rgb(245, 245, 245, 0.6) 1px solid;
+}
+.draw3 {
+  position: absolute;
+  top: 0;
+  left: 75%;
+
+  height: 100%;
+
+  border: rgb(245, 245, 245, 0.6) 1px solid;
+}
+
+.rules {
+  position: relative;
+
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(161, 161, 161);
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+.rules-bottom {
+  position: relative;
+
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(161, 161, 161);
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+
+
+
